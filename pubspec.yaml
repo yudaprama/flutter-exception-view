@@ -1,6 +1,6 @@
 name: exception_view
 description: A new Flutter package.
-version: 0.0.1
+version: 0.0.2
 author: Yuda Prama<Yuda Prama>
 homepage: https://github.com/yudaprama/flutter-exception-view.git
 
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_insets: any
 
 dev_dependencies:
   flutter_test:

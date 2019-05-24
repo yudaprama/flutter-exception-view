@@ -2,11 +2,7 @@ library exception_view;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-const sizeBox25 = const SizedBox(height: 25);
-const sizeBox15 = const SizedBox(height: 15);
-const sizeBox10 = const SizedBox(height: 10);
-const sizeBox5 = const SizedBox(height: 5);
+import 'package:flutter_insets/flutter_insets.dart';
 
 class ErrorMessageView extends StatelessWidget {
 	final errorObject;
